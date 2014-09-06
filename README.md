@@ -1,4 +1,4 @@
-mhacksiv-agent
+queri-agent
 ==============
 
 The Queri Agent is a piece of client software intended to be run anywhere that you would want to monitor. By default, it runs on port 5000, and that is where the Queri server will look for it. You can give Queri either your IP address, or your domain name.

@@ -54,3 +54,6 @@ docs/_build/
 
 # Vim swap
 *.swp
+
+# Virtualenv
+venv

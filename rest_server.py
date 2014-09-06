@@ -5,7 +5,7 @@ import glob
 
 @app.route('/overview/')
 def get_overview():
-    mods = [i[8:-3] for i in glob.glob("actions/*.py")]
+    mods = [i[8:-3] for i in glob.glob("actions/*.py") if "__init__" not in i]
     values = []
     for i in mods:
         func = getattr(__import__("actions.%s" % i), i, None).get_value
